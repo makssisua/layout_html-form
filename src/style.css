@@ -1,1 +1,12 @@
 /* styles go here */
+fieldset .lable-style {
+  margin-bottom: 10px;
+}
+
+fieldset .lable-style:last-of-type {
+  margin-bottom: 0;
+}
+
+fieldset {
+  margin-bottom: 20px;
+}
