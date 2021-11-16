@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AACA,qBACE,kBACF,CAEA,kCACE,eACF,CAEA,SACE,kBACF","file":"style.45f2063c.css","sourceRoot":"..\\src","sourcesContent":["/* styles go here */\nfieldset .lableStyle {\n  margin-bottom: 10px;\n}\n\nfieldset .lableStyle:last-of-type {\n  margin-bottom: 0;\n}\n\nfieldset {\n  margin-bottom: 20px;\n}\n"]}
