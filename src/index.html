@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -11,7 +10,6 @@
   </head>
 
   <body>
-
     <form
     class="form-style"
     action="https://mate-academy-form-lesson.herokuapp.com/create-application"
@@ -26,9 +24,10 @@
             <input
               id="sName"
               type="text"
-              name="surname"
+              name="surName"
               autocomplete="off"
-              required>
+              required
+            >
           </label>
         </div>
 
@@ -39,7 +38,8 @@
               id="fName"
               type="text"
               name="name"
-              autocomplete="off">
+              autocomplete="off"
+            >
           </label>
         </div>
 
@@ -48,12 +48,13 @@
             How old are You?:
             <input
               type="number"
-              name="Age"
+              name="age"
               value="12"
               min="12"
               max="100"
               id="yOld"
-              required>
+              required
+            >
           </label>
         </div>
 
@@ -63,7 +64,8 @@
             <input
               id="bDay"
               type="date"
-              name="birthday-date">
+              name="birthdayDate"
+            >
           </label>
         </div>
 
@@ -73,7 +75,8 @@
             <input
               id="accept"
               type="checkbox"
-              name="terms-ccept">
+              name="termsAccept"
+            >
           </label>
         </div>
 
@@ -89,7 +92,8 @@
               id="email"
               type="email"
               name="email"
-              placeholder="email@example.com">
+              placeholder="email@example.com"
+            >
           </label>
         </div>
 
@@ -99,7 +103,8 @@
             <input
               id="password"
               type="password"
-              name="password">
+              name="password"
+            >
           </label>
         </div>
 
@@ -114,17 +119,19 @@
             <input
               id="loveCatY"
               type="radio"
-              name="Love-Cat"
-              value="y">
-              Yes
+              name="loveCat"
+              value="y"
+            >
+            Yes
           </label>
           <label for="loveCatN">
             <input
               id="loveCatN"
               type="radio"
-              name="Love-Cat"
-              value="n">
-              No
+              name="loveCat"
+              value="n"
+            >
+            No
           </label>
         </div>
 
@@ -134,7 +141,8 @@
             <input
               id="fColor"
               type="color"
-              name="Faforit-Color">
+              name="favoritColor"
+            >
           </label>
         </div>
 
@@ -144,10 +152,11 @@
             <input
               id="sTime"
               type="time"
-              name="Sleep-Time"
+              name="sleepTime"
               step="2"
               min="19:00"
-              max="23:00">
+              max="23:00"
+            >
           </label>
         </div>
 
@@ -156,7 +165,8 @@
           <select
             name="cars"
             id="cars"
-            size="4">
+            size="4"
+          >
             <option value="bmw" selected="">BMW</option>
             <option value="audi">Audi</option>
             <option value="lada">Lada</option>
@@ -170,8 +180,9 @@
             <input
               id="rate"
               type="range"
-              name="our-rate"
-              value="0">
+              name="ourRate"
+              value="0"
+            >
           </label>
         </div>
 
@@ -184,10 +195,11 @@
           <label for="comm">
             Comments:
             <textarea
-                name="comments"
-                id="comm"
-                cols="20"
-                rows="2">
+              name="comments"
+              id="comm"
+              cols="20"
+              rows="2"
+            >
             </textarea>
           </label>
         </div>
@@ -195,7 +207,7 @@
         <div class="lable-style">
           <label for="recommendUs">
             Would you recommend us?
-            <select name="Recommend-Us" id="recommendUs">
+            <select name="recommendUs" id="recommendUs">
               <option value="yes">Yes</option>
               <option value="no">No</option>
             </select>
@@ -209,5 +221,4 @@
 
     <script type="text/javascript" src="./main.js"></script>
   </body>
-
 </html>
