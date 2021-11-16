@@ -1,9 +1,9 @@
 /* styles go here */
-fieldset .lable-style {
+fieldset .lableStyle {
   margin-bottom: 10px;
 }
 
-fieldset .lable-style:last-of-type {
+fieldset .lableStyle:last-of-type {
   margin-bottom: 0;
 }
 
